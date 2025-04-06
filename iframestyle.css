@@ -1,0 +1,257 @@
+/* all element in page */
+* {
+  margin: 0px;
+}
+/* blank div java goes into*/
+.blank-top{
+  background-color: gray;
+  height: 100px;
+  width: 100%;
+  margin: 0px 0px;
+}
+ /* first photo and its content */
+.success-div{
+  background-image: url("images/girlsmilling.jpg");
+  background-color: #cccccc;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.success-div h1{
+  text-transform: capitalize;
+  font-family:'Times New Roman', Times, serif;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  
+}
+.success-div img{
+  height: 25px;
+}
+/*all element under our section*/
+.our-section{ 
+  text-transform: capitalize;
+  font-family: 'Courier New', Courier, monospace;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  padding: 10px;
+  line-height: 40px;
+}
+/* first img in our section + content */
+.one-one{
+  background-image: url(images/twogirlssmilling.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding-top: 120px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+}
+
+.one-one p{
+  margin-top: 30px;
+}
+/* second img in our section + content */
+.two-growth{
+  background-image: url('images/girlwriting.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  padding-top: 120px;
+  color: white;
+  font-weight: lighter;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.two-growth h3{
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+/* third img in our section + content */
+.three-prof{
+  background-image: url("images/groupsmilling.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 120px;font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: lighter;
+}
+.three-prof h3{
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+/* all element under the section-sec */
+.second-sec{
+  background-color: rgb(48, 41, 41);
+  color: white;
+  font-weight: lighter;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+.four-empty{
+  background-color: rgb(48, 41, 41);
+  height: 20px;
+  border-bottom: 1px solid white;
+}
+.four-what h1{
+  text-transform: capitalize;
+  padding-top: 80px ;
+  margin-bottom: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.carl-mcc{
+  letter-spacing: 1px;
+}
+.founder{ letter-spacing: 1px;
+  font-size:smaller;
+  font-weight: 100;
+}
+
+.four-what h2{
+  text-transform: capitalize;
+  padding-top: 20px;
+  padding-bottom: 80px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.it-experts{
+  font-size:medium;
+  letter-spacing: 1px;
+}
+.it{
+  font-weight: lighter;
+}
+.alex-boyd{ 
+  font-size: 1cap;
+  letter-spacing: 2px;
+}
+.franchise{
+  font-size: medium;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+.four-what h3 {
+  text-transform: capitalize;
+  padding: 10px 0px;
+ 
+}
+.four-what h4 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  line-height: 10px;
+  margin: 0px ;
+}
+.thrive {
+  letter-spacing: 3px;
+}
+.ventures{
+  font-size: x-small;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.four-what h5{
+  text-transform: capitalize;
+  padding-bottom: 70px;
+}
+.four-what p{
+  padding-bottom: 40px; font-weight: 100;
+}
+.mark-vp{
+  letter-spacing: 1px;
+}
+/* all element under the third section*/
+.third-section{
+  background-image: url(images/winstonchurchill.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.first-p{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: normal;
+}
+.first-p p{
+  font-size: x-large;
+  padding-bottom: 50px;
+}
+.winston{
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+.first-block{
+  background-color: white;
+  margin: 10px 10px;
+  padding: 30px 15px;
+  height: 45%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.first-block h4{
+  font-weight: lighter;
+  font-size: smaller;
+}
+.first-block p{
+  line-height: 55px;
+  font-weight: lighter;
+  font-size: smaller;
+  letter-spacing: 1px;
+}
+.first-block input{
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.263);
+  width: 100%;
+}
+.first-block button{
+  height: 50px;
+  width: 100%;
+  background-color: rgb(9, 222, 183);
+  border: 1px solid black;
+  font-size: 15px;
+}
+/* all element under the last section */
+.last-section{
+  background-color: rgb(48, 41, 41);
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: lighter;
+  padding: 10px 10px;
+}
+.last-section h2{
+  text-transform: uppercase;
+  font-size: smaller;
+  padding-top: 30px;
+}
+.last-section div{
+  margin-bottom: 30px;
+  border-top: 1px solid white;
+}
+.barns {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.follow-us{
+  text-transform: capitalize;
+}
+.end-end{
+  padding-top: 30px;
+}

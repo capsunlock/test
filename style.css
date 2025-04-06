@@ -1,0 +1,103 @@
+/* wix style */
+.top-bin{
+  background-color:white;
+  color: black;
+  font-family:cursive;
+  border-top: 1px solid gray;
+  border-bottom:  1px solid gray;
+  padding: 0px 20px;
+}
+/* all elements under section-one */
+.section-one{
+  padding: 10px 10px;
+  margin: 5px 10px;
+}
+/* all h1 under section one */
+.section-one h1{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 35px;
+  text-transform: capitalize;
+  color:dimgrey;
+}
+/* all buttons under section-one */
+.section-one button {
+  display: block;
+  height: 40px;
+  width: 100%;
+  margin: 15px 0px;
+  text-transform: capitalize;
+  font-size: 17px;
+  border-radius: 40px;
+  border: 1px solid #0000ffd4;
+}
+/* save template button */
+.save-template{
+  background-color: #0000ffd4;
+  color: white;
+}
+.save-template:hover{
+  background-color: rgba(0, 0, 255, 0.712);
+}
+/* view demo button */
+.view-demo{
+  background-color: white;
+  color: #0000ffd4;
+}
+.view-demo:hover{
+  background-color: #0000ffd4;
+  color: white;
+}
+/* all element under section two */
+.section-two {
+  padding: 10px 10px;
+}
+/* all element under section three */
+.section-three{
+  margin-top: 50px;
+  padding: 0px 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* all h3 under section three */
+.section-three h3{
+  margin-top: 50px;
+}
+/* all p under section three */
+.section-three p{
+  margin-bottom: 40px;
+}
+/* all button under section three */
+.section-three button{
+  text-align: left;
+  height: 50px;
+  width: 100%;
+  border: none;
+  font-size: larger;
+  text-transform: capitalize;
+  background-color: white;
+}
+/* parts of the button divided */
+.good{
+  color: blue;
+  font-size: smaller;
+}
+.wix{
+  padding-left: 20px;
+  font-weight: bold;
+  padding-right: 50%;
+}
+/* all element under section four */
+.section-four{
+  padding: 0px 10px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* all img under section four */
+.section-four img{
+  position: center;
+  height: 200px;
+  width: 100%;
+}
+/* all p under section four */
+.section-four p{
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
