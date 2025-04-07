@@ -2,6 +2,13 @@
 * {
   margin: 0px;
 }
+a {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-transform: capitalize;
+  color: white;
+  background-color: transparent;
+}
+
 /* blank div java goes into*/
 .blank-top{
   background-color: gray;
@@ -252,6 +259,11 @@
 .follow-us{
   text-transform: capitalize;
 }
+.follow-us a{
+  text-decoration: none;
+  
+}
 .end-end{
   padding-top: 30px;
+  
 }
