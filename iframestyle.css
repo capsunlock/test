@@ -9,37 +9,51 @@ a {
   background-color: transparent;
 }
 
-/* blank div java goes into*/
+/*jave in here*/
 .blank-top{
+  content: "";
   background-color: gray;
   height: 100px;
   width: 100%;
   margin: 0px 0px;
 }
 .fix-text {
+  text-transform: capitalize;
   position: fixed;
-  top: 20px;
-  text-align: center;
-  justify-content: center;
+  top: 30px;
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 20px;
 };
-.call-now, .barns, .stroke{
-  display: inline;
+.fix-text:first-child{
+  margin-right: auto;
+}
+.fix-text:last-child{
+  margin-left: auto;
+}
+.call{
+  color: #ffffff;
+}
+.barns{
+  color: rgb(1, 104, 71);
+  font-weight: bold;
+  font-size: large;
 }
 .top-stroke{
-  height: 2px;
+  height: 1px;
 }
 .middle-stroke{
-  height: 3px;
+  height: 2.3px;
 }
 .bottom-stroke{
-  height: 4px;
+  height: 2px;
 }
 .top-stroke, .middle-stroke, .bottom-stroke {
   width: 20px;
   background-color: #ffffff; 
-  margin-bottom: 3px;
+  margin-top: 3px;
+  margin-right: 70px;
 }
  /* first photo and its content */
 .success-div{
