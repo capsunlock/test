@@ -1,18 +1,18 @@
-/* all element in page */
+/* all element in file */
 * {
   margin: 0px;
 }
+/* all a elements in htm file */
 a {
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-transform: capitalize;
   color: white;
   background-color: transparent;
 }
-
 /*jave in here*/
 .blank-top{
   content: "";
-  background-color: gray;
+  background-color: rgb(58, 55, 55);
   height: 100px;
   width: 100%;
   margin: 0px 0px;
@@ -36,7 +36,7 @@ a {
   color: #ffffff;
 }
 .barns{
-  color: rgb(1, 104, 71);
+  color: rgb(24, 221, 159);
   font-weight: bold;
   font-size: large;
 }
@@ -266,12 +266,19 @@ a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.263);
   width: 100%;
 }
+.first-block input:active {
+  border: none;
+}
 .first-block button{
   height: 50px;
   width: 100%;
   background-color: rgb(9, 222, 183);
   border: 1px solid black;
   font-size: 15px;
+}
+
+.first-block button:active{
+  border: none;
 }
 /* all element under the last section */
 .last-section{
