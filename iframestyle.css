@@ -266,12 +266,19 @@ a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.263);
   width: 100%;
 }
+.first-block input:active {
+  border: none;
+}
 .first-block button{
   height: 50px;
   width: 100%;
   background-color: rgb(9, 222, 183);
   border: 1px solid black;
   font-size: 15px;
+}
+
+.first-block button:active{
+  border: none;
 }
 /* all element under the last section */
 .last-section{
