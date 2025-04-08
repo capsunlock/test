@@ -16,6 +16,31 @@ a {
   width: 100%;
   margin: 0px 0px;
 }
+.fix-text {
+  position: fixed;
+  top: 20px;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+};
+.call-now, .barns, .stroke{
+  display: inline;
+}
+.top-stroke{
+  height: 2px;
+}
+.middle-stroke{
+  height: 3px;
+}
+.bottom-stroke{
+  height: 4px;
+}
+.top-stroke, .middle-stroke, .bottom-stroke {
+  width: 20px;
+  background-color: #ffffff; 
+  margin-bottom: 3px;
+}
  /* first photo and its content */
 .success-div{
   background-image: url("images/girlsmilling.jpg");

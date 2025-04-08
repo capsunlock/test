@@ -59,6 +59,7 @@
 .section-two {
   padding: 10px 10px; overflow-x: hidden;
 }
+/* css for the iframe  */
 .section-two iframe{
   display: block;
   width: calc(100% + 27px);
