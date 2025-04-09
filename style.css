@@ -1,4 +1,3 @@
-@media only screen and (max-width: 600px) {
   /*wix style */
 .top-bin{
   background-color:white;
@@ -103,9 +102,10 @@
 }
 /* all element under section four */
 .section-four{
-  padding: 0px 10px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
 }
+@media only screen and (max-width: 600px) {
 /* all img under section four */
 .section-four img{
   position: center;
@@ -117,4 +117,16 @@
   text-transform: capitalize;
   margin-bottom: 50px;
 }
+}
+@media only screen and (min-width: 600px) {
+  .fix-text{
+    display: flex;
+    justify-content: space-between;
+  }
+  .fix-text:first-child{
+    margin-right: auto;
+  }
+  .fix-text:last-child{
+    margin-left: auto;
+  }
 }
