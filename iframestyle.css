@@ -55,6 +55,7 @@ a {
   margin-top: 3px;
   margin-right: 70px;
 }
+
  /* first photo and its content */
  .success-div {
   position: relative; 
@@ -63,15 +64,7 @@ a {
   display: 
   flex; align-items: center; justify-content: center;
 }
-.success-div::before {
-  content: "";
-  background-image: url("images/girlsmilling.jpg");
-  background-size: cover;
-  position: absolute;
-  top: 0px; right: 0px;
-  bottom: 0px; 
-  left: 0px; 
-  opacity: 1; }
+
 
   .success-div div {
     position: relative;
@@ -95,6 +88,16 @@ a {
   padding: 10px;
   line-height: 40px;
 }
+@media only screen and (max-width: 600px) {
+  .success-div::before {
+    content: "";
+    background-image: url("images/girlsmilling.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0px; right: 0px;
+    bottom: 0px; 
+    left: 0px; 
+    opacity: 1; }
 /* first img in our section + content */
 .one-one{
   position: relative;
@@ -194,6 +197,133 @@ a {
 }
 .three-prof p{
    font-weight: lighter;
+} 
+}
+
+@media only screen and (min-width: 600px){
+
+   /* first photo and its content */
+ .success-div {
+  position: relative; 
+  height: 350px; 
+  width: 100%; 
+  align-items: center; 
+  justify-content: center;
+  background-color: rgb(58, 55, 55);
+}
+
+  .success-div div {
+    position: relative;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: capitalize;
+  }
+.success-div img{
+  height: 25px;
+}
+  .grid {
+    display: flex;
+  }
+  .one-one{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .one-one::before {
+    content: "";
+    background-image: url(images/twogirlssmilling.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 1;
+  }
+  .one-one div{ 
+    position: relative;
+    color: #ffffff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+  }
+  .one-one h3{
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+  .one-one p {
+    font-weight: lighter;
+  }
+  /* second img in our section + content */
+  .two-growth {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    justify-content: center; 
+    
+  }
+  .two-growth::before {
+    content: "";
+    position: absolute;
+    background-image: url('images/girlwriting.jpg');
+    background-size: cover;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 1;
+  }
+  .two-growth div{
+    position: relative;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#ffffff;
+  }
+  .two-growth h3{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  .two-growth p{
+    font-weight: lighter;
+  }
+  /* third img in our section + content */
+  .three-prof {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+  }
+  .three-prof::before{
+    content: "";
+    position: absolute;
+    background-image: url("images/groupsmilling.jpg");
+    background-size: cover;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 1;
+  }
+  .three-prof div{
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #ffffff;
+  }
+  .three-prof h3{
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  }
+  .three-prof p{
+     font-weight: lighter;
+  } 
 }
 /* all element under in section-sec */
 .second-sec{
